@@ -30,8 +30,9 @@ export const monadDevnet = defineChain({
 
 const scaffoldConfig = {
   // The networks on which your DApp is live
-  targetNetworks: [chains.foundry], // change to monadDevnet when you want to go production like below
-  // targetNetworks: [monadDevnet],
+  // change to monadDevnet when you want to go production like below
+  // targetNetworks: [chains.foundry],
+  targetNetworks: [monadDevnet],
 
   // The interval at which your front-end polls the RPC servers for new data
   // it has no effect if you only target the local network (default is 4000)
