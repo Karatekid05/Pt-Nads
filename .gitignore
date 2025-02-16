@@ -33,3 +33,4 @@ dist
 cache/
 out/
 broadcast/
+.vercel
